@@ -1,0 +1,262 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: auto;
+}
+main{
+    background-color: #fff;
+    margin: 250px;
+    margin-top: 10px;
+}
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 35px;
+}
+div{
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 550;
+    box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.18);
+}
+.nav-left{
+display: flex;
+align-items: center;
+text-transform: uppercase;
+margin-left: 100px;
+}
+.nav-left svg{ 
+    width: 65px;
+}
+.nav-left>*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.nav-left div:hover{
+color: #00754a;
+cursor: pointer;
+}
+.nav-right>*{
+    margin: 10px;
+}
+.nav-right{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-right: 100px;
+}
+.nav-right div{
+    padding: 20px;
+    text-decoration-color: black;
+}
+.find-us{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+   font-weight: 550;
+}
+.find-us:hover{
+    color: #00754a;
+    cursor: pointer;
+}
+.sign-in, 
+.join-now
+{
+    border: solid 1px black;
+    border-radius:40px;
+    padding: 5px 20px 5px 20px;
+}
+.join-now{
+    background-color: black;
+    color: white;
+}
+.join-now:hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+.sign-in:hover{
+    background-color: rgba(0,0,0,0.06);
+    cursor: pointer;
+}
+
+.wrapper{
+    display: flex;
+    margin-top: 25px;
+}
+.wrapper img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.product-left{
+    max-width: 50%;
+    background-color:#cbe678
+}
+.product-right{
+    color: white;
+   max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.product-button{
+    border: solid 1px white;
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 40px;
+}
+.product-button:hover{
+    background-color: #80817d2c;
+    cursor: pointer;
+}
+.product-button-white{
+    border: solid 1px rgb(53, 46, 46);
+    max-width: max-content;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+
+    border-radius: 40px;
+}
+.product-button-white:hover{
+    background-color: #80817d2c;
+    cursor: pointer;
+}
+
+.wrapper2{
+    display: flex;
+    margin-top: 25px;
+
+}
+.wrapper2 img{
+    max-width: 100%;
+    object-fit: cover;
+
+}
+.product-left1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: rgb(53, 46, 46);
+   width: 50%;
+   height: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.product-right1{
+    max-width: 50%;
+}
+.abouttext{
+    font-size: larger;
+    font-weight: 300;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info{
+    text-align: center;
+    display: inline-block;
+    padding: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.innerfot{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.fotled{
+    list-style: none;
+    list-style-type: none;
+    box-shadow: -2px -1px 2px 0px rgba(0,0,0,0.18);
+    -webkit-box-shadow: -2px -1px 2px 0px rgba(0,0,0,0.18);
+    -moz-box-shadow: -2px -1px 2px 0px rgba(0,0,0,0.18);
+}
+.fotled li{
+    color: #969191;
+    list-style: none;
+    font-size: medium;
+}
+.fotled li:hover{
+    color: #3a3939;
+    cursor: pointer;
+}
+.hr1{
+    color: #96919175;
+    background-color: #969191;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+h3{
+    font-size: large;
+    font-weight: 200;
+}
+.list{
+    max-width: 200px;
+}
+.socialfot li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+}
+.socialfot ul{
+    padding-inline-start: 0px;
+}
+.socialfot li:hover{
+    background-color: #83838357;
+}
+.valign-middle{
+    width: 50px;
+}
+.socialfot ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+}
+.fothörna{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    justify-content: flex-start;
+    font-size: medium;
+}
+.fothörna div{
+display: flex;
+align-items: center;
+margin-right: 40px;
+}
+.fothörna div:hover{
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+span{
+    margin-right: 20px;
+}
+.licensed{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: #838383;
+    display: inline-block;
+    margin-left: 200px;
+}
